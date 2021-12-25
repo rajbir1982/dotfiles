@@ -1,5 +1,7 @@
 # antibody bundle < antibody_plugins.txt > ~/.antibody_plugins.sh
-# must be run again any time a change is made to ~/.shellrc/antibody_plugins.txt
+# must be run again any time a change is made to ~/.zsh.d/antibody_plugins.txt
+
+mattberther/zsh-pyenv
 
 # Shell theme
 romkatv/powerlevel10k
@@ -16,7 +18,7 @@ ohmyzsh/ohmyzsh path:plugins/aws
 ohmyzsh/ohmyzsh path:plugins/colored-man-pages
 ohmyzsh/ohmyzsh path:plugins/colorize
 ohmyzsh/ohmyzsh path:plugins/dotenv
-ohmyzsh/ohmyzsh path:plugins/pyenv
+# ohmyzsh/ohmyzsh path:plugins/pyenv
 ohmyzsh/ohmyzsh path:plugins/systemadmin
 ohmyzsh/ohmyzsh path:plugins/terraform
 ohmyzsh/ohmyzsh path:plugins/vscode
