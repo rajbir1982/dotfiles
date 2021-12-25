@@ -1,0 +1,61 @@
+add_newline = false
+
+right_format =  " $python "
+# Replace the "❯"
+[character]
+success_symbol = "[λ](green)"
+error_symbol = "[λ](red)"
+
+[directory]
+truncation_length = 4
+truncate_to_repo = true
+style = "blue"
+read_only = " 🔒"
+read_only_style = "fg:#ffb86c"
+truncation_symbol = "⋯"
+home_symbol = "~"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[docker_context]
+format = "via [🐋 $context](blue bold)"
+
+[git_status]
+conflicted = " ~ "
+ahead = " ⇡ ${count}"
+behind = " ⇣ ${count}"
+staged = '[+\($count\)](yellow)'
+diverged = " ⇕ ⇡ ${ahead_count} ⇣ ${behind_count}"
+untracked = " ? "
+stashed = " $ "
+modified = " ! "
+deleted = "  "
+renamed = " » "
+up_to_date = " "
+style = "bold white"
+format = "[$all_status]($style)"
+
+[git_branch]
+symbol = " "
+truncation_length = 12
+truncation_symbol = "⋯"
+only_attached = false
+#style = "bold purple"
+format = " [$symbol$branch]($style) "
+# symbol = "🌱 "
+style = "bold yellow"
+
+[git_commit]
+commit_hash_length = 8
+style = "bold white"
+
+[hg_branch]
+symbol = " "
+style =	"bold purple"
+format = "on [$symbol$branch]($style) "
+
+[python]
+format = " [$symbol$version]($style) "
+# format='[${symbol}${pyenv_prefix}( \($virtualenv\))]($style)'
+pyenv_version_name = true
+style = "bold green"
+# version_format = "raw"

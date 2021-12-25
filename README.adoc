@@ -1,0 +1,32 @@
+= dotfiles
+:experimental:
+:hide-uri-scheme:
+
+These are my dotfiles. They are mine and you can expect them to change, as my preferences change. Feel free to fork them and use them as a basis for yours.
+
+NOTE: These dotfiles are slanted toward Linux and specifically ArchLinux.
+
+== Installing
+
+I manage my dotfiles with https://www.gnu.org/software/stow/[gnu stow], a symlink farm manager. To install on Arch Linux with `paru`:
+
+....
+paru stow
+....
+
+If that doesn't work, you can try the following:
+
+....
+sudo apt install stow
+sudo dnf install stow
+sudo pacman install stow
+sudo yum install stow
+brew install stow
+....
+
+Once stow is installed, just cd into this repository and create symlinks using stow:
+
+....
+chmod 700 setup.sh
+./setup.sh
+....
