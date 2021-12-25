@@ -23,6 +23,7 @@ alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 # Directory aliases
 alias cda="cd $NOCBOT_HOME/ansible"
 alias cdg="cd $PROJECTS_DIR/reavon/git-repos"
+alias cdot="cd $PROJECTS_DIR/reavon/git-repos/dotfiles"
 alias cdp="cd $PROJECTS_DIR"
 alias cdr="cd $ANSIBLE_ROLES_PATH"
 
