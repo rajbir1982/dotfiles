@@ -14,3 +14,4 @@ stow -R -t $HOME */
 
 cd zsh
 antibody bundle < antibody_plugins.txt > ~/.antibody_plugins.sh
+git clone https://github.com/mantoso/pyenv-default-requirements.git $(pyenv root)/plugins/pyenv-default-requirements
