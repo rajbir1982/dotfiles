@@ -1,10 +1,11 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fisher_danhper_2F_fish_2D_ssh_2D_agent_files:/home/reavon/\x2econfig/fish/functions/__ssh_agent_is_started\x2efish\x1e/home/reavon/\x2econfig/fish/functions/__ssh_agent_start\x2efish\x1e/home/reavon/\x2econfig/fish/conf\x2ed/fish\x2dssh\x2dagent\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/reavon/\x2econfig/fish/functions/fisher\x2efish\x1e/home/reavon/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_archlinux_files:/home/reavon/\x2econfig/fish/functions/pacdisowned\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacin\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacins\x2efish\x1e/home/reavon/\x2econfig/fish/functions/paclist\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacloc\x2efish\x1e/home/reavon/\x2econfig/fish/functions/paclocs\x2efish\x1e/home/reavon/\x2econfig/fish/functions/paclsorphans\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacmanallkeys\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacmansignkeys\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacmir\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacre\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacrem\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacrep\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacreps\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacrmorphans\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacupd\x2efish\x1e/home/reavon/\x2econfig/fish/functions/pacupg\x2efish\x1e/home/reavon/\x2econfig/fish/functions/README\x2emd
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_pyenv_files:/home/reavon/\x2econfig/fish/functions/pyenv\x2efish\x1e/home/reavon/\x2econfig/fish/conf\x2ed/pyenv\x2efish\x1e/home/reavon/\x2econfig/fish/completions/pyenv\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/plugin\x2dpyenv\x1eoh\x2dmy\x2dfish/plugin\x2darchlinux
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/plugin\x2dpyenv\x1eoh\x2dmy\x2dfish/plugin\x2darchlinux\x1edanhper/fish\x2dssh\x2dagent
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:green
